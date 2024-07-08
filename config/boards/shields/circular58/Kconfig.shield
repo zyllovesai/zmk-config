@@ -1,0 +1,2 @@
+config SHIELD_Circular58
+    def_bool $(shields_list_contains,circular58)
