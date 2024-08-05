@@ -1,0 +1,9 @@
+file_format: "1"
+id: e73test
+name: e73test
+type: shield
+url: 
+requires: [pro_micro]
+features:
+  - keys
+  - underglow

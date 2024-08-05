@@ -1,0 +1,2 @@
+config SHIELD_E73Test
+    def_bool $(shields_list_contains,e73test)

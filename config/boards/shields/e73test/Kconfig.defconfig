@@ -1,0 +1,6 @@
+if SHIELD_E73Test
+
+config ZMK_KEYBOARD_NAME
+    default "e73test"
+
+endif
