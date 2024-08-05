@@ -18,4 +18,4 @@
 ---
 include:
   - board: nrfmicro_13
-    shield: circular58
+    shield: e73test
