@@ -11,28 +11,17 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B
-                &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C 
-                &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D 
-                &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E 
-                &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F 
-                &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G 
-                &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H 
-                &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I 
-                &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J 
-                &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K 
-                &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L &kp L
-                &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M &kp M 
-                &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N &kp N 
-                &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O &kp O 
-                &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P &kp P 
-                &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q 
-                &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R &kp R 
-                &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S &kp S 
-                &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T &kp T 
-                &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U &kp U 
-                &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V &kp V 
+                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
+                &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B 
+                &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C 
+                &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D 
+                &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E 
+                &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F 
+                &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G 
+                &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H 
+                &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I 
+                &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J
+                &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K 
             >;
         };
     };
