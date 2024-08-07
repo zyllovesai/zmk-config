@@ -11,17 +11,16 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B 
-                &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C 
-                &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D 
-                &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E 
-                &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F 
-                &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G 
-                &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H 
-                &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I 
-                &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J
-                &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K &kp K 
+                &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG 
+                &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B 
+                &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C 
+                &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D 
+                &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E &kp E 
+                &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F &kp F 
+                &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G &kp G  
+                &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H &kp H 
+                &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I 
+                &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J &kp J 
             >;
                 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
