@@ -7,7 +7,7 @@
         zmk,underglow = &led_strip;
 	};
 
-	kscan0: kscan {
+	kscan0: kscan_0  {
         	compatible = "zmk,kscan-gpio-matrix";
         	wakeup-source;
 
