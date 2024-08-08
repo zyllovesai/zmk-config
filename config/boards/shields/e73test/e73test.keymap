@@ -5,6 +5,13 @@
 #include <dt-bindings/zmk/mouse.h>
 
 / {
+    behaviors {
+        encoder: encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&inc_dec_kp C_VOL_UP>, <&inc_dec_kp C_VOL_DN>;
+        };
+    };
     keymap {
         compatible = "zmk,keymap";
 
@@ -21,7 +28,7 @@
                 &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I 
                 &mo 1 &mo 1 &mo 1 &mo 1 &mo 1 &mo 1 &mo 1 &mo 1 &mo 1 &mo 1
             >;
-                sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+                sensor-bindings = <&encoder>;
         };
         layer_1 {
             bindings = <
@@ -36,7 +43,7 @@
                 &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I &kp I 
                 &mo 1 &mo 1 &mo 1 &mo 1 &mo 1 &mo 1 &mo 1 &mo 1 &mo 1 &mo 1
             >;
-                sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+                sensor-bindings = <&encoder>;
         };
     };
 };
