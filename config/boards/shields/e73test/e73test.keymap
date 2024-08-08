@@ -11,7 +11,7 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-                &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG &rgb_ug RGB_TOG 
+                &rgb_ug RGB_ON &rgb_ug RGB_OFF &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
                 &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B &kp B 
                 &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C &kp C 
                 &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D &kp D 
