@@ -55,21 +55,21 @@
             RC(9,0)  RC(9,1) RC(9,2) RC(9,3) RC(9,4) RC(9,5) RC(9,6) RC(9,7) RC(9,8) RC(9,9) 
         >;
 	};
-};
-&left_encoder {
-	
 	left_encoder: encoder_left {
         	compatible = "alps,ec11";
         	a-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         	b-gpios = <&gpio0 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         	steps = <80>;
-        	status = "okay";
+        	status = "disabled";
     	};
     	sensors: sensors {
         	compatible = "zmk,keymap-sensors";
         	sensors = <&left_encoder>;
         	triggers-per-rotation = <20>;
     	};
+};
+&left_encoder {
+	status = "okay";
 };
 &pinctrl {
     spi3_default: spi3_default {
