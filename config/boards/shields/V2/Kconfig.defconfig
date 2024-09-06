@@ -1,22 +1,19 @@
-if SHIELD_V2
+# Copyright (c) 2020 Pete Johanson, Kurtis Lew
+# SPDX-License-Identifier: MIT
+
+if SHIELD_V2_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "v2"
+    default "V2"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
 
 endif
 
-if ZMK_DISPLAY
+if SHIELD_V2_LEFT || SHIELD_V2_RIGHT
 
-config I2C
+config ZMK_SPLIT
     default y
 
-config SSD1306
-    default y
-
-endif # ZMK_DISPLAY
-
-if ZMK_RGB_UNDERGLOW
-
-config WS2812_STRIP
-    default y
 endif
