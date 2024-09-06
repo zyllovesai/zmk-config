@@ -1,2 +1,8 @@
-config SHIELD_V2
-    def_bool $(shields_list_contains,v2)    
+# Copyright (c) 2020 Pete Johanson, Kurtis Lew
+# SPDX-License-Identifier: MIT
+
+config SHIELD_V2_LEFT
+    def_bool $(shields_list_contains,v2_left)
+
+config SHIELD_V2_RIGHT
+    def_bool $(shields_list_contains,v2_right)
