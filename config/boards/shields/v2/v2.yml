@@ -2,7 +2,7 @@ file_format: "1"
 id: v2
 name: v2
 type: shield
-url: https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard
+url: https://github.com/Ladniy/jiran
 requires: [pro_micro]
 features:
   - keys
