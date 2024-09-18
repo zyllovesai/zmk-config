@@ -1,0 +1,15 @@
+file_format: "1"
+id: cgsv2
+name: Cgsv2
+type: shield
+url: https://github.com/Ladniy/jiran
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+siblings:
+  - cgsv2_left
+  - cgsv2_right
+  
