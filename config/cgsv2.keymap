@@ -35,11 +35,11 @@
 
         layer_2 {
             bindings = <
-&kp LA(F4)          &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12          &kp DELETE
-&trans      &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans
-&trans      &trans  &trans  &trans                   &trans   &trans   &mo 3   &trans
+&kp LA(F4)          &kp F7                &kp F8                 &kp F9  &kp F10  &kp F11  &kp F12          &kp DELETE
+&trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans   &trans   &trans   &trans  &trans
+&trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans   &trans   &trans   &trans  &trans
+&trans      &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans   &trans   &trans   &trans  &trans
+&trans      &trans  &trans                &trans                                  &trans   &trans   &mo 3   &trans
             >;
         };
 
