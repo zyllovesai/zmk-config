@@ -1,9 +1,9 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_X57
+if SHIELD_CNC
 
 config ZMK_KEYBOARD_NAME
-    default "x57"
+    default "cnc"
 
 endif
