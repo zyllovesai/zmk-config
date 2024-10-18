@@ -1,6 +1,6 @@
 file_format: "1"
-id: x57
-name: x57
+id: cnc
+name: cnc
 type: shield
 url: 
 requires: [nrfmicro_13_52840]
