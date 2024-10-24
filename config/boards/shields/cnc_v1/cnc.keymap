@@ -26,11 +26,11 @@
         };
         fn1_layer {
             bindings = <
-            &bootloader  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &bootloader
-            &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1 
-            &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1 
-            &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  
-            &kp N1  &kp N1  &kp N1  &kp N1                  &kp N1  &kp N1  &kp N1  &kp N1  
+            &bootloader  &kp F2  &kp F3  &kp F4 &bootloader  &bootloader  &kp F7  &kp F8  &kp F9  &bootloader
+            &kp N1  &kp N1  &kp N1  &kp N1  &bootloader      &bootloader  &kp N1  &kp N1  &kp N1  &kp N1 
+            &kp N1  &kp N1  &kp N1  &kp N1  &bootloader      &bootloader  &kp N1  &kp N1  &kp N1  &kp N1 
+            &kp N1  &kp N1  &kp N1  &kp N1  &bootloader      &bootloader  &kp N1  &kp N1  &kp N1  &kp N1  
+            &bt BT_CLR  &kp N1  &kp N1  &bootloader               &bootloader    &kp N1  &kp N1  &bt BT_CLR 
             >;
 		};
     };
