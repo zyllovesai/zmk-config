@@ -5,11 +5,8 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/ext_power.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     keymap0: keymap {
@@ -17,29 +14,31 @@
 
         default_layer {
             bindings = <
-            &kp ESC     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7          &kp N8           &kp BSPC 
-            &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I           &kp O            &kp P      
-	    &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K           &kp L            &mo 2  
-            &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA       &kp UP           &kp RIGHT_SHIFT    
-            &kp LCTRL   &kp LALT    &mo 1       &kp SPACE                           &kp ENTER   &kp LEFT        &kp DOWN         &kp RIGHT
+&kp ESC    &kp N1    &kp N2  &kp N3     &kp N4  &kp N5  &kp N6     &kp N7     &kp N8    &kp BSPC
+&kp Q      &kp W     &kp E   &kp R      &kp T   &kp Y   &kp U      &kp I      &kp O     &kp P
+&kp A      &kp S     &kp D   &kp F      &kp G   &kp H   &kp J      &kp K      &kp L     &mo 2
+&kp Z      &kp X     &kp C   &kp V      &kp B   &kp N   &kp M      &kp COMMA  &kp UP    &kp RIGHT_SHIFT
+&kp LCTRL  &kp LALT  &mo 1   &kp SPACE                  &kp ENTER  &kp LEFT   &kp DOWN  &kp RIGHT
             >;
         };
+
         layer_1 {
             bindings = <
-&kp LA(F4)              &kp F1       &kp F2                   &kp F3                   &kp F4         &kp F5          &kp F6           &kp F7            &kp F8              &kp DELETE
-&kp EXCL                &kp TILDE    &kp LEFT_BRACE           &kp RIGHT_BRACE          &kp PIPE       &kp N7          &kp N8           &kp N9            &kp KP_MULTIPLY     &kp QUESTION
-&kp SEMI                &kp COLON    &kp LEFT_BRACKET         &kp RIGHT_BRACKET        &kp FSLH       &kp N4          &kp N5           &kp N6            &kp KP_DIVIDE       &trans 
-&kp DQT                 &kp PRCNT    &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS    &kp BSLH       &kp N1          &kp N2           &kp N3            &kp PLUS            &kp UNDER
-&kp LC(LA(LS(DELETE)))  &kp LWIN     &trans                   &kp AT                                                  &kp N0           &kp DOT           &kp MINUS           &kp EQUAL
+&kp LA(F4)              &kp F1     &kp F2                &kp F3                 &kp F4    &kp F5  &kp F6  &kp F7   &kp F8           &kp DELETE
+&kp EXCL                &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE  &kp N7  &kp N8  &kp N9   &kp KP_MULTIPLY  &kp QUESTION
+&kp SEMI                &kp COLON  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp FSLH  &kp N4  &kp N5  &kp N6   &kp KP_DIVIDE    &trans
+&kp DQT                 &kp PRCNT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH  &kp N1  &kp N2  &kp N3   &kp PLUS         &kp UNDER
+&kp LC(LA(LS(DELETE)))  &kp LWIN   &trans                &kp AT                                   &kp N0  &kp DOT  &kp MINUS        &kp EQUAL
             >;
         };
-	layer_2 {
+
+        layer_2 {
             bindings = <
-&trans            &kp F9       &kp F10         &kp F11         &kp F12      &trans          &trans           &trans            &trans           &trans
-&trans            &trans       &trans          &trans          &trans       &trans          &trans           &trans            &trans           &kp C_VOL_UP
-&trans            &trans       &trans          &trans          &trans       &trans          &trans           &trans            &trans           &trans 
-&trans            &trans       &trans          &trans          &trans       &trans          &trans           &trans            &trans           &kp C_VOL_DN
-&trans            &trans       &trans          &bootloader                                  &bt BT_CLR       &trans            &trans           &trans
+&kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp F9  &kp F10  &kp F11      &kp F12  &trans  &trans      &trans  &trans  &trans
+&kp C_AL_MY_COMPUTER                    &trans  &trans   &trans       &trans   &trans  &trans      &trans  &trans  &kp C_VOL_UP
+&trans                                  &trans  &trans   &trans       &trans   &trans  &trans      &trans  &trans  &trans
+&trans                                  &trans  &trans   &trans       &trans   &trans  &trans      &trans  &trans  &kp C_VOL_DN
+&trans                                  &trans  &trans   &bootloader                   &bt BT_CLR  &trans  &trans  &trans
             >;
         };
     };
