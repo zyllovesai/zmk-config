@@ -24,21 +24,21 @@
 
         layer_1 {
             bindings = <
-&kp LA(F4)   &kp F1     &kp F2                &kp F3                 &kp F4    &kp F5  &kp F6  &kp F7   &kp F8           &kp DELETE
-&kp EXCL     &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE  &kp N7  &kp N8  &kp N9   &kp KP_MULTIPLY  &kp QUESTION
-&kp SEMI     &kp COLON  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp FSLH  &kp N4  &kp N5  &kp N6   &kp KP_DIVIDE    &trans
-&kp DQT      &kp PRCNT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH  &kp N1  &kp N2  &kp N3   &kp PLUS         &kp UNDER
-&kp LA(TAB)  &kp LWIN   &trans                &kp AT                                   &kp N0  &kp DOT  &kp MINUS        &kp EQUAL
+&kp LA(F4)   &kp F1     &kp F2                &kp F3                 &kp F4    &kp F5           &kp F6  &kp F7   &kp F8     &kp DELETE
+&kp EXCL     &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE  &kp KP_MULTIPLY  &kp N7  &kp N8   &kp N9     &kp QUESTION
+&kp SEMI     &kp COLON  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp FSLH  &kp KP_DIVIDE    &kp N4  &kp N5   &kp N6     &kp TAB
+&kp DQT      &kp PRCNT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH  &kp KP_PLUS      &kp N1  &kp N2   &kp N3     &kp UNDER
+&kp LA(TAB)  &kp LWIN   &trans                &kp AT                                            &kp N0  &kp DOT  &kp MINUS  &kp EQUAL
             >;
         };
 
         layer_2 {
             bindings = <
-&kp LG(D)    &kp F9        &kp F10  &kp F11      &kp F12  &trans  &trans      &trans  &trans        &kp LC(LA(DELETE))
-&kp Q        &kp W         &kp E    &kp R        &kp T    &kp Y   &kp U       &kp I   &kp O         &kp P
-&kp A        &kp S         &kp D    &kp F        &kp G    &kp H   &kp J       &kp K   &kp L         &trans
-&kp Z        &kp X         &kp C    &kp V        &kp B    &kp N   &kp M       &trans  &kp C_VOL_UP  &trans
-&kp LG(TAB)  &kp LEFT_WIN  &trans   &bootloader                   &bt BT_CLR  &trans  &kp C_VOL_DN  &trans
+&kp LG(D)    &kp F9        &kp F10  &kp F11      &kp F12  &trans  &trans      &trans  &trans  &kp LC(LA(DELETE))
+&kp Q        &kp W         &kp E    &kp R        &kp T    &kp Y   &kp U       &kp I   &kp O   &kp P
+&kp A        &kp S         &kp D    &kp F        &kp G    &kp H   &kp J       &kp K   &kp L   &trans
+&kp Z        &kp X         &kp C    &kp V        &kp B    &kp N   &kp M       &trans  &trans  &kp C_VOL_UP
+&kp LG(TAB)  &kp LEFT_WIN  &trans   &bootloader                   &bt BT_CLR  &trans  &trans  &kp C_VOL_DN
             >;
         };
     };
