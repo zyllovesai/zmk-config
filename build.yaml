@@ -24,4 +24,4 @@
 ---
 include:
   - board: nrfmicro_13
-    shield: Circular58
+    shield: circular58
