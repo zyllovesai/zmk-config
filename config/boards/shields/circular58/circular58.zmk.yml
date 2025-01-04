@@ -6,4 +6,3 @@ url:
 requires: [pro_micro]
 features:
   - keys
-  - underglow
