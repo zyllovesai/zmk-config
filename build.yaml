@@ -21,7 +21,7 @@
 #    shield: cgsv2_left
 #  - board: nrfmicro_13
 #    shield: cgsv2_right
-
+---
 include:
   - board: nrfmicro_13
     shield: circular58
