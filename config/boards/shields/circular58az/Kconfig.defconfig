@@ -1,0 +1,6 @@
+if SHIELD_Circular58AZ
+
+config ZMK_KEYBOARD_NAME
+    default "circular58az"
+
+endif
