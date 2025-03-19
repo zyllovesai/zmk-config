@@ -1,0 +1,8 @@
+file_format: "1"
+id: circular58az
+name: circular58az
+type: shield
+url: 
+requires: [pro_micro]
+features:
+  - keys
