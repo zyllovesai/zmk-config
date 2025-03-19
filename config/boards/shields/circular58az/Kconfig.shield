@@ -1,2 +1,0 @@
-config SHIELD_Circular58AZ
-    def_bool $(shields_list_contains,circular58az)
