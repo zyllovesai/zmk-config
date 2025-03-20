@@ -95,3 +95,24 @@
         color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
     };
 };
+
+&i2c0 { // 或 spi0，根据接口类型选择
+    compatible = "nordic,nrf-twim"; // I2C驱动
+    sda-pin = <37>; // 根据硬件调整
+    scl-pin = <39>;
+    status = "okay";
+
+    oled: ssd1306@3c { // I2C地址通常为0x3C
+        compatible = "solomon,ssd1306fb";
+        reg = <0x3c>;
+        width = <128>;
+        height = <32>;
+        segment-offset = <0>;
+        page-offset = <0>;
+        display-offset = <0>;
+        multiplex-ratio = <63>;
+        com-invdir;
+        segment-remap;
+        prechargep = <0x22>;
+    };
+};
