@@ -1,2 +1,2 @@
-config SHIELD_SLKeyBorad
-    def_bool $(shields_list_contains,SLKeyBorad)
+config SHIELD_ZYL87K
+    def_bool $(shields_list_contains,ZYL87K)
