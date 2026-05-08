@@ -1,0 +1,8 @@
+file_format: "1"
+id: SLKeyBorad
+name: SLKeyBorad
+type: shield
+url: 
+requires: [pro_micro]
+features:
+  - keys
