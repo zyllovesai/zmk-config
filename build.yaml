@@ -24,4 +24,4 @@
 ---
 include:
   - board: nrfmicro_13
-    shield: SLKeyBorad
+    shield: ZYL87K
