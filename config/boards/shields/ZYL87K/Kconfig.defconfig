@@ -1,6 +1,6 @@
-if SHIELD_SLKeyBorad
+if SHIELD_ZYL87K
 
 config ZMK_KEYBOARD_NAME
-    default "SLKeyBorad"
+    default "ZYL87K"
 
 endif
