@@ -51,4 +51,19 @@
             RC(5,0)  RC(5,1) RC(5,2)                 RC(5,5)         	             RC(5,9) RC(5,10) RC(5,11)          RC(5,13) RC(5,14) RC(5,15) RC(5,16) 
         >;
 	};
+
+	encoder: encoder {
+        	compatible = "alps,ec11";
+        	a-gpios = <&gpio0 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        	b-gpios = <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        	steps = <80>;
+        	status = "okay";
+    };
+
+    sensors: sensors {
+        	compatible = "zmk,keymap-sensors";
+        	sensors = <&encoder>;
+        	triggers-per-rotation = <20>;
+    };
+
 };
