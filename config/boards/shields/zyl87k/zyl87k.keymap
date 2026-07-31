@@ -16,6 +16,7 @@
 &kp LSHFT   &kp Z     &kp X     &kp C     &kp V      &kp B   &kp N   &kp M      &kp COMMA  &kp DOT   &kp SLASH                   &kp RSHIFT                  &kp UP 
 &kp LCTRL   &kp LWIN  &kp LALT                     &kp SPACE                               &kp RALT  &kp RWIN     &mo 1    &kp RCTRL          &kp LEFT  &kp DOWN  &kp RIGHT 
             >;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
             fn1_layer {
             bindings = <
@@ -26,6 +27,7 @@
 &kp LSHFT   &kp Z     &kp X     &kp C     &kp V      &kp B   &kp N   &kp M      &kp COMMA  &kp DOT   &kp SLASH                   &kp RSHIFT                  &kp UP 
 &kp LCTRL   &kp LWIN  &kp LALT                     &kp SPACE                               &kp RALT  &kp RWIN     &none    &kp RCTRL          &kp LEFT  &kp DOWN  &kp RIGHT 
             >;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
