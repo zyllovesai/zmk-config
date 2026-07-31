@@ -1,0 +1,6 @@
+if SHIELD_Zyl87k
+
+config ZMK_KEYBOARD_NAME
+    default "zyl87k"
+
+endif
